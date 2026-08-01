@@ -1,8 +1,23 @@
 aid: propseller
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propseller.png
 name: Propseller
-description: 'Propseller is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Propseller is a Singapore-based, technology-powered real estate brokerage founded in
+  2018 by Adrien Jorge. It helps property owners sell, buy, and rent residential real estate — HDB
+  flats, condominiums, and landed homes — pairing top-performing human property agents with data and
+  technology to deliver an end-to-end transaction experience at a transparent commission starting from
+  1%. Backed by Vertex Ventures and Partech, Propseller operates a consumer-facing real estate service
+  and does not currently publish a public developer API, SDK, or programmatic integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/propseller/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplace
+- Real Estate
+- PropTech
+- Property
+- Brokerage
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,22 @@ maintainers:
 common:
 - type: Website
   url: https://propseller.com/
+- type: About
+  url: https://propseller.com/about/
+- type: Blog
+  url: https://propseller.com/blog/
+- type: Pricing
+  url: https://propseller.com/commission/
+- type: Support
+  url: https://propseller.com/contact/
+- type: TermsOfService
+  url: https://propseller.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://propseller.com/privacy-policy/
+- type: DomainSecurity
+  url: security/propseller-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
